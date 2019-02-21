@@ -102,7 +102,7 @@ li2 a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
-li a:hover {
+li2 a:hover {
 	background-color: #FC0;
 }
 
