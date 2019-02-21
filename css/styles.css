@@ -58,19 +58,11 @@ https://www.w3schools.com/css/css_navbar.asp
 #no_style{
 	
 }
-
-ul{
-	
-	
-	/*
-	list-style-type: none;
-	margin-top: -80px;
-	overflow: hidden;
-	position: relative;
-	top: 0px;
-	padding: 0;
-	*/
-	
+#bullets{
+	list-style-type: inherit;
+	text-align: center;
+	list-style-position: inside;
+	font-size: 20px;
 }
 
 #last{
@@ -83,16 +75,16 @@ ul{
 }
 	
 
-li .left{
+li2 .left{
 	display: inline;
 	float: left;
 	
 }
-li .right{
+li2 .right{
 	display: inline;
 	float: right;
 }
-li a {
+li2 a {
 	display: block;
 	text-align: justify;
 	padding: 14px 16px;
@@ -102,7 +94,7 @@ li a {
 	border-color: #CF9;
 	color: #FFF;
 }
-li a:hover:not(.active) {
+li2 a:hover:not(.active) {
 	background-color: #C96;
 }
 
