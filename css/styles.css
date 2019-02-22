@@ -45,6 +45,34 @@ p{
 	font-size: 20px;
 }
 
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+.center{
+	list-style-type: none;
+	text-align: center;
+}
+
+#bullets{
+	list-style-type: inherit;
+	text-align: center;
+	list-style-position: inside;
+	font-size: 20px;
+}
+#centerList{
+	list-style-type: none;
+	text-align: center;
+	/*list-style-position: inside;*/
+	
+	font-size: 20px;
+}
+
 /* Sources:
 https://www.w3schools.com/css/css_navbar.asp
 */
@@ -55,23 +83,10 @@ https://www.w3schools.com/css/css_navbar.asp
 	margin-top: -80px;
 	list-style-type: none;
 }
-#no_style{
-	
-}
-#bullets{
-	list-style-type: inherit;
-	text-align: center;
-	list-style-position: inside;
-	font-size: 20px;
-}
+
 
 #last{
 	margin-right: 20px;
-}
-
-.center{
-	list-style-type: none;
-	text-align: center;
 }
 	
 
@@ -102,16 +117,8 @@ li2 a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
-li2 a:hover {
+li a:hover {
 	background-color: #FC0;
 }
 
-#logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 10px;
-	width: 100px;
-	height: 100px;
-	z-index: 1;
-}
+
